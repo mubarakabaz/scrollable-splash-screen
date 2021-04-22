@@ -7,18 +7,14 @@
 
 <body>
     <!-- Splash Screen -->
-    <div class="splash-screen">
-        <div class="splash fade-in">
-            <h2 class="splash-title fade-in">
-                Welcome Friend!
-            </h2>
-            <a href="#" class="button-splash-arrow fade-in">
-                <img src="assets/img/down-chevron.png" alt="example-splash-screen | mubarakabaz">
-            </a>
-        </div>
-    </div> <!-- END Splash  -->
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+    <!-- END Splash  -->
 
-    <div class="container">
+    <div class="container" id="content">
         <main class="form-signin">
             <form>
                 <div class="text-center">
